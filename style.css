@@ -1,0 +1,74 @@
+/*
+SPACING SYSTEM (for padding) (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(value)
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  width: 
+  margin:
+}
+
+html {
+ /* 10px / 16px = 0.625 */
+ font-size: 62.5%;
+ scroll-behavior: smooth;
+ /* Percentage of user's browser font-size setting */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4c6ef5;
+  font-weight: 500;
+  font-size: 1.8rem;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.15);
+
+
+  height: 9.6rem;
+  padding: 0 4.8rem;
+
+  position: relative;
+}
+
+.navbar-link {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-navbar-link:link,
+.main-navbar-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-navbar-link:hover,
+.main-navbar-link:active {
+  color: #2e4293;
+}
