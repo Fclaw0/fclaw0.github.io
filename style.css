@@ -144,6 +144,7 @@
 
 .section-education {
   background-color: #dce1f4;
+  padding: 9.6rem 0;
 }
 
 .education-description {
@@ -154,9 +155,11 @@
 .cert-logo {
   height: 15rem;
   width: 15rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
 }
 
 .certifications {
   display: flex;
   justify-content: center;
+  gap: 2rem;
 }
