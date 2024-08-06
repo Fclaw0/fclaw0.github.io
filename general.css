@@ -25,13 +25,20 @@ Bold: 700
 - Tints: #dce1f4 (Not a true tint of the primary, but works)
 - Shades: 
 - Accents:  
-- Greys: #1c1c1c
+- Greys: 
+#1c1c1c
+#555
 
 --- 05 SHADOWS
 
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.15);
 
+
 --- 06 BORDER-RADIUS
+
+1000px
+500px
 
 */
 
@@ -44,6 +51,7 @@ Bold: 700
 *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem #1d2a5d;
+  border-radius: 100rem;
 }
 
 body {
@@ -99,4 +107,33 @@ html {
 
 .icon {
   fill: #1d2a5d;
+}
+
+/* BACK TO TOP BUTTON */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #1d2a5d;
+  color: #fff;
+  cursor: pointer;
+  padding: 1.6rem;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.15);
+}
+
+#myBtn:hover {
+  background-color: #555;
+  transition: all 0.3s;
+}
+
+.mybtn-up-arrow {
+  fill: #fff;
+  stroke: #fff;
 }
