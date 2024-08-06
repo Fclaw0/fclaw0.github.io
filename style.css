@@ -148,14 +148,18 @@
 }
 
 .education-description {
+  display: flex;
   font-size: 2rem;
   line-height: 1.6;
+  justify-content: center;
 }
 
 .cert-logo {
   height: 15rem;
   width: 15rem;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  filter: grayscale(100%);
+  border-radius: 5rem;
 }
 
 .certifications {
