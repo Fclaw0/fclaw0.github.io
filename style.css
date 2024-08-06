@@ -147,13 +147,6 @@
   padding: 9.6rem 0;
 }
 
-.education-description {
-  display: flex;
-  font-size: 2rem;
-  line-height: 1.6;
-  justify-content: center;
-}
-
 .cert-logo {
   height: 15rem;
   width: 15rem;
@@ -162,8 +155,24 @@
   border-radius: 5rem;
 }
 
+.certifications img {
+  transition: transform 0.5s ease;
+}
+
+.certifications img:hover {
+  transform: scale(1.1);
+}
+
 .certifications {
   display: flex;
   justify-content: center;
   gap: 2rem;
+  margin-bottom: 3.2rem;
+}
+
+.bachelors {
+  display: flex;
+  font-size: 2rem;
+  line-height: 1.6;
+  justify-content: center;
 }
