@@ -14,6 +14,7 @@ Semi-bold: 600
 Bold: 700
 
 - line heights: 
+1.05
 
 - letter spacing:
 -0.5px
@@ -123,7 +124,7 @@ html {
   color: #fff;
   cursor: pointer;
   padding: 1.6rem;
-  border-radius: 1rem;
+  border-radius: 10px;
   font-size: 1.8rem;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.15);
 }
