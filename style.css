@@ -226,6 +226,10 @@
 }
 
 .project-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   border-radius: 6px;
   width: 100%;
   background-color: #dce1f4;
