@@ -103,7 +103,8 @@ html {
 
 .heading-primary,
 .heading-secondary,
-.heading-tertiary {
+.heading-tertiary,
+.heading-project {
   font-weight: 700;
   color: #333;
   letter-spacing: -0.5px;
@@ -127,6 +128,14 @@ html {
 
 .heading-tertiary {
   font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.heading-project {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
