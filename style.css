@@ -258,12 +258,7 @@
   width: 100%;
   border-radius: 4px;
   margin-bottom: 2rem;
-  filter: grayscale(100%);
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.15);
-}
-
-.fitfresh-preview:hover {
-  filter: grayscale(0%);
 }
 
 .channel-box:hover {
@@ -327,18 +322,12 @@
   height: 10rem;
   width: 10rem;
   border-radius: 500px;
-  filter: grayscale(100%);
-}
-
-.youtube-channel-image:hover {
-  filter: grayscale(0%);
 }
 
 /* FOOTER */
 
 .footer {
   padding: 3.2rem 0;
-  border-top: 1px solid #eee;
   background-color: #1c1c1c;
 }
 
@@ -377,6 +366,12 @@
 .footer-link:hover,
 .footer-link:active {
   color: #fff;
+}
+
+.footer-icon {
+  height: 4.5rem;
+  width: 4.5rem;
+  fill: #fff;
 }
 
 .footer-icons {
