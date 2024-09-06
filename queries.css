@@ -1,3 +1,13 @@
 /*****************************/
-/* BELOW 1344px (Smaller desktops) */
+/* BELOW 1528px (Smaller desktops) */
 /*****************************/
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 200rem;
+  }
+
+  .section-education {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
