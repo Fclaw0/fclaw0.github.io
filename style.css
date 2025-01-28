@@ -168,11 +168,20 @@
 }
 
 .about-description {
-  display: flex;
-  text-align: center;
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4rem;
+}
+
+.siftmed {
+  color: #00f3ae;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.siftmed:hover,
+.siftmed:active {
+  color: #00c28b;
 }
 
 .profile-photo {

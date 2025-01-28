@@ -71,13 +71,20 @@ box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 1000px;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
 body {
   font-family: "Roboto Slab", serif;
+}
+
+br {
+  content: "";
+  margin: 2.4rem;
+  display: block;
 }
 
 /* REUSABLE STYLES */
