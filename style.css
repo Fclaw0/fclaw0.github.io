@@ -261,11 +261,48 @@
 
 .certifications {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  gap: 6.4rem;
   padding: 4.8rem 0;
   width: 100vw;
   flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+  max-width: 50%;
+  justify-content: space-evenly;
+}
+
+.cert-row {
+  max-width: 700px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inner-cert-row {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+  gap: 2rem;
+}
+
+.cert {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3.2rem;
+  color: #1c1c1c;
+}
+
+.cert h2 {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.cert p {
+  font-size: 2.4rem;
+  font-weight: 400;
 }
 
 /* PROJECTS SECTION */
