@@ -29,7 +29,7 @@
     </header>
 
     <!-- TODO: Make text colours consisent
-     Make entire Youtube channel bars clickable  -->
+                Change global link focus border  -->
     <main>
       <section class="section-hero">
         <video autoplay muted loop class="bg-image">
@@ -60,7 +60,7 @@
           <h1 class="heading-primary"> Who am I? </h1>
         </div>
 
-        <div class="container who-am-i">
+        <div class="container">
           <div class="about-description">
             I am an IT professional from St. John's, Newfoundland with a bachelors and many certifications.
             I currently work at <a href="https://www.siftmed.ca/" class="siftmed" target="_blank">SiftMed</a> as a Data Quality Specialist.
@@ -242,66 +242,92 @@
       </section>
 
         <section class="section-projects" id="projects">
-          <div class="container">
+          <div class="container projects-container">
             <h1 class="heading-primary"> Projects </h1>
 
-            <h2 class="heading-project"> FitFresh </h2>
-
-            <div class="container">
-              <div class="project-box">
-                <p class="heading-tertiary"> An AI meal prep service for those into fitness. </p>
-                <a href="https://fclaw0.github.io/fitfresh-website/First-website-project/" target="_blank">
-                <img src="img/fitfresh.gif" class="fitfresh-preview" alt="Preview of FitFresh" />
-                <a href="https://github.com/Fclaw0/fitfresh-website" class="btn btn--full" target="_blank">GitHub</a> 
-              </div>
-            </div>
-
-            <h2 class="heading-project"> Youtube Channels </h2>
-
-            <div class="container grid grid--3-cols">
-              <div class="channel-box channel-box-1-wrap">
-                  <header class="channel-header">
-                    <p class="channel-name">Youtube Channel 1</p>
-                    <img class="youtube-channel-image" src="img/youtube-primary.gif" alt="Youtube channel profile picture" />
-                  </header>
-
-                  <div class="description-item"><span>Main Channel</span></div>
-                  <div class="description-item"><span><strong>10k+</strong> Subscribers</span></div>
-                  <div class="description-item"><span><strong>60+</strong> Videos</span></div>
-
-                  <div class="channel-view">
-                    <a href="https://www.youtube.com/@OmegaDBD" class="btn btn--full project-btn" target="_blank">Visit</a>
-                  </div>
-              </div>
-    
-              <div class="channel-box channel-box-2-wrap">
-                  <header class="channel-header">
-                    <p class="channel-name">Youtube Channel 2</p>
-                    <img class="youtube-channel-image" src="img/youtube-secondary.gif" alt="Youtube channel profile picture" />
-                  </header>
-
-                  <div class="description-item"><span>Secondary Channel</span></div>
-                  <div class="description-item"><span><strong>4k+</strong> Subscribers</span></div>
-                  <div class="description-item"><span><strong>160+</strong> Videos</span></div>
-
-                  <div class="channel-view">
-                    <a href="https://www.youtube.com/@Omega20" class="btn btn--full" target="_blank">Visit</a>
-                  </div>
+            <div class="projects-inner-container">
+              <div>
+                <h2 class="heading-project"> FitFresh </h2>
+                <div class="container">
+                  <a href="https://fclaw0.github.io/fitfresh-website/First-website-project/" target="_blank">
+                    <div class="project-box">
+                      <p class="heading-tertiary"> An AI meal prep service for those into fitness. </p>
+                      <img src="img/fitfresh.gif" class="fitfresh-preview" alt="Preview of FitFresh" />
+                      <button class="btn btn--full">GitHub</button> 
+                    </div>
+                  </a>
+                </div>
               </div>
 
-              <div class="channel-box">
-                  <header class="channel-header">
-                    <p class="channel-name">Youtube Channel 3</p>
-                    <img class="youtube-channel-image" src="img/youtube-tertiary.gif" alt="Youtube channel profile picture" />
-                  </header>
+              <div>
+                <h2 class="heading-project"> Youtube Channels </h2>
+                <div class="container grid grid--3-cols">
+                  <a class="channel-link" href="https://www.youtube.com/@OmegaDBD" target="_blank">
+                    <div class="channel-container">
+                      <div class="channel-box">
+                        10M+ Views
+                      </div>
+                      <div class="channel-inner-container">
+                        <header class="channel-header">
+                          <p class="channel-name">Omega</p>
+                          <img class="youtube-channel-image" src="img/youtube-primary.gif" alt="Youtube channel profile picture" />
+                        </header>
 
-                  <div class="description-item"><span>Music Channel</span></div>
-                  <div class="description-item"><span>Guitar covers</span></div>
-                  <div class="description-item"><span>Personal Project</span></div>
+                        <div class="description-item"><span>Main Channel</span></div>
+                        <div class="description-item"><span><strong>10k+</strong> Subscribers</span></div>
+                        <div class="description-item"><span><strong>60+</strong> Videos</span></div>
 
-                  <div class="channel-view">
-                    <a href="https://www.youtube.com/@OmegaGuitar" class="btn btn--full project-btn" target="_blank">Visit</a>
-                  </div>
+                        <div class="channel-view">
+                          <button class="btn btn--full">Visit</button>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a class="channel-link" href="https://www.youtube.com/@Omega20" target="_blank">
+                    <div class="channel-container">
+                      <div class="channel-box">
+                        5M+ Views
+                      </div>
+                      <div class="channel-inner-container">
+                        <header class="channel-header">
+                          <p class="channel-name">Omega Clips</p>
+                          <img class="youtube-channel-image" src="img/youtube-secondary.gif" alt="Youtube channel profile picture" />
+                        </header>
+
+                        <div class="description-item"><span>Secondary Channel</span></div>
+                      <div class="description-item"><span><strong>4k+</strong> Subscribers</span></div>
+                      <div class="description-item"><span><strong>160+</strong> Videos</span></div>
+
+                        <div class="channel-view">
+                          <button class="btn btn--full">Visit</button>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a class="channel-link" href="https://www.youtube.com/@OmegaGuitar" target="_blank">
+                    <div class="channel-container">
+                      <div class="channel-box">
+                        ♪ ♫ ♪ 
+                      </div>
+                      <div class="channel-inner-container">
+                        <header class="channel-header">
+                          <p class="channel-name">Omega Guitar</p>
+                          <img class="youtube-channel-image" src="img/youtube-tertiary.gif" alt="Youtube channel profile picture" />
+                        </header>
+
+                        <div class="description-item"><span>Music Channel</span></div>
+                        <div class="description-item"><span>Guitar Covers</span></div>
+                        <div class="description-item"><span>Personal Project</span></div>
+
+                        <div class="channel-view">
+                          <button class="btn btn--full">Visit</button>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>

@@ -71,6 +71,10 @@ box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 1000px;
 }
 
+a {
+  text-decoration: none;
+}
+
 html,
 body {
   margin: 0;
@@ -180,6 +184,7 @@ html {
 .btn,
 .btn:link,
 .btn:visited {
+  color: #fff;
   display: inline-block;
   background-color: #1d2a5d;
   text-decoration: none;
