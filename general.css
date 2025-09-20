@@ -105,28 +105,82 @@ html {
   /* Percentage of user's browser font-size setting */
 }
 
-/* GRIDS */
+/* FLEXBOX LAYOUTS */
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6.4rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.flex-container--2-cols {
+  justify-content: space-between;
+}
+
+.flex-container--2-cols > * {
+  flex: 0 1 calc(50% - 3.2rem);
+  min-width: 0;
+}
+
+.flex-container--3-cols {
+  justify-content: space-between;
+}
+
+.flex-container--3-cols > * {
+  flex: 0 1 calc(33.333% - 4.27rem);
+  min-width: 0;
+}
+
+.flex-container--4-cols {
+  justify-content: space-between;
+}
+
+.flex-container--4-cols > * {
+  flex: 0 1 calc(25% - 4.8rem);
+  min-width: 0;
+}
+
+.flex-container--centering {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Legacy grid classes for backward compatibility */
 .grid {
-  display: grid;
-  column-gap: 6.4rem;
-  row-gap: 9.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6.4rem;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .grid--2-cols {
-  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+}
+
+.grid--2-cols > * {
+  flex: 0 1 calc(50% - 3.2rem);
+  min-width: 0;
 }
 
 .grid--3-cols {
-  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+}
+
+.grid--3-cols > * {
+  flex: 0 1 calc(33.333% - 4.27rem);
+  min-width: 0;
 }
 
 .grid--4-cols {
-  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
 }
 
-.grid--centering- {
-  align-items: center;
+.grid--4-cols > * {
+  flex: 0 1 calc(25% - 4.8rem);
+  min-width: 0;
 }
 
 /* HEADINGS */
