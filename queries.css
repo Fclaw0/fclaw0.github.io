@@ -25,6 +25,21 @@ body {
   }
 }
 
+/* Large screens where IT skills get cut off (1150px and below) */
+@media (max-width: 71.875em) {
+  .flex-IT-skills {
+    gap: 8rem;
+    flex-direction: column;
+  }
+
+  .profile-photo {
+    height: 45rem;
+    width: 45rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
 /* Tablets (984px and below) */
 @media (max-width: 61.5em) {
   html {
@@ -171,6 +186,11 @@ body {
   .IT-skill {
     height: 11rem;
     width: 11rem;
+  }
+
+  .IT-skill-text {
+    font-size: 1.4rem;
+    margin-top: 0.8rem;
   }
 
   .IT-skills-flex {
@@ -323,8 +343,8 @@ body {
   }
 
   .IT-skill-text {
-    font-size: 1.2rem;
-    margin-top: 0.8rem;
+    font-size: 1rem;
+    margin-top: 0.6rem;
   }
 
   .profile-photo {
@@ -494,8 +514,8 @@ body {
   }
 
   .IT-skill-text {
-    font-size: 0.9rem;
-    margin-top: 0.6rem;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
   }
 
   .IT-skills-flex {
@@ -646,8 +666,8 @@ body {
   }
 
   .IT-skill-text {
-    font-size: 0.8rem;
-    margin-top: 0.5rem;
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
   }
 
   .icon {
