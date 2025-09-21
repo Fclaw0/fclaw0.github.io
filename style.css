@@ -3,7 +3,7 @@
 /* HEADER */
 
 .header {
-  background-color: #dce1f4f3;
+  background-color: var(--primary-blue-light);
   font-size: 1.8rem;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
@@ -249,7 +249,7 @@ body {
 /* EDUCATION SECTION */
 
 .section-education {
-  background-color: #dce1f4;
+  background-color: var(--primary-blue-light);
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -276,9 +276,10 @@ body {
   gap: 6.4rem;
   width: 100vw;
   flex-direction: row;
-  margin: auto;
+  margin: 0 auto;
   max-width: 50%;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
 }
 
 .cert-row {
@@ -287,6 +288,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .inner-cert-row {
@@ -340,7 +342,7 @@ body {
   flex-direction: column;
   border-radius: 3px;
   width: 100%;
-  background-color: #dce1f4;
+  background-color: var(--primary-blue-light);
   padding: 1.6rem;
   margin-bottom: 3.2rem;
   transition: transform 0.5s ease;
@@ -372,7 +374,7 @@ body {
 
 .channel-container {
   border-radius: 3px;
-  background-color: #dce1f4;
+  background-color: var(--primary-blue-light);
   color: var(--text-primary);
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -482,7 +484,7 @@ body {
 .footer-icon {
   height: 4.5rem;
   width: 4.5rem;
-  fill: #fff;
+  fill: var(--text-light);
   transition: all 0.3s;
 }
 
@@ -496,7 +498,7 @@ body {
 .footer-icon:visited {
   text-decoration: none;
   font-size: 1.6rem;
-  fill: #fff;
+  fill: var(--text-light);
 }
 
 .footer-icon:hover,
