@@ -187,7 +187,6 @@ body {
 .verafin {
   color: var(--accent-red);
   text-decoration: none;
-  transition: all 0.3s;
 }
 
 .verafin:hover,
