@@ -366,7 +366,9 @@ body {
 }
 
 .channel-link:focus {
-  border-radius: 3px;
+  border-radius: 6px;
+  box-shadow: 0 0 0 0.3rem rgba(29, 42, 93, 0.4),
+    0 0 0 0.6rem rgba(220, 225, 244, 0.6);
 }
 
 .channel-container {

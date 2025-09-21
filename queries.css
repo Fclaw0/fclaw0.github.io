@@ -63,8 +63,10 @@ body {
   }
 
   .profile-photo {
-    height: 40rem;
-    width: 40rem;
+    height: 42rem;
+    width: 42rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
   .certifications {
@@ -160,8 +162,10 @@ body {
   }
 
   .profile-photo {
-    height: 35rem;
-    width: 35rem;
+    height: 40rem;
+    width: 40rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
   .IT-skill {
@@ -307,14 +311,15 @@ body {
   }
 
   .IT-skills-flex {
-    gap: 1rem;
-    flex-wrap: wrap;
+    gap: 0.8rem;
+    flex-wrap: nowrap;
     justify-content: center;
   }
 
   .IT-skill {
-    height: 10rem;
-    width: 10rem;
+    height: 8.5rem;
+    width: 8.5rem;
+    flex-shrink: 0;
   }
 
   .IT-skill-text {
@@ -323,9 +328,10 @@ body {
   }
 
   .profile-photo {
-    height: 30rem;
-    width: 30rem;
-    margin-top: 2rem;
+    height: 34rem;
+    width: 34rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
   .section-education {
@@ -482,17 +488,26 @@ body {
   }
 
   .IT-skill {
-    height: 9rem;
-    width: 9rem;
+    height: 8rem;
+    width: 8rem;
+    flex-shrink: 0;
   }
 
   .IT-skill-text {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    margin-top: 0.6rem;
+  }
+
+  .IT-skills-flex {
+    gap: 0.6rem;
+    flex-wrap: nowrap;
   }
 
   .profile-photo {
-    height: 25rem;
-    width: 25rem;
+    height: 28rem;
+    width: 28rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
   .cert h2 {
@@ -613,6 +628,38 @@ body {
     font-size: 0.85rem;
     padding: 0.4rem 0.5rem;
     flex-shrink: 0;
+  }
+}
+
+/* Small screens where IT skills layout breaks (420px and below) */
+@media (max-width: 26.25em) {
+  .IT-skills-flex {
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .IT-skill {
+    height: 7rem;
+    width: 7rem;
+    flex-shrink: 0;
+  }
+
+  .IT-skill-text {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  .icon {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .profile-photo {
+    height: 26rem;
+    width: 26rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 }
 
