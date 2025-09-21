@@ -31,6 +31,28 @@
     margin-top: 4rem;
     margin-bottom: 4rem;
   }
+
+  /* Certifications switch to single column at 1150px */
+  .certifications {
+    max-width: 100%;
+    gap: 2rem;
+    flex-direction: column;
+  }
+
+  .cert-row {
+    width: 100%;
+    max-width: none;
+  }
+
+  .inner-cert-row {
+    gap: 1.5rem;
+  }
+
+  .cert {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
 }
 
 /* Tablets (984px and below) */
@@ -185,12 +207,6 @@
     gap: 3rem;
   }
 
-  .cert {
-    flex-direction: column;
-    text-align: center;
-    gap: 2rem;
-  }
-
   .education-logo {
     height: 15rem;
     width: auto;
@@ -334,27 +350,6 @@
 
   .section-education {
     padding: 3rem 0 6rem 0;
-  }
-
-  .certifications {
-    max-width: 100%;
-    gap: 2rem;
-    flex-direction: column;
-  }
-
-  .cert-row {
-    width: 100%;
-    max-width: none;
-  }
-
-  .inner-cert-row {
-    gap: 1.5rem;
-  }
-
-  .cert {
-    flex-direction: column;
-    text-align: center;
-    gap: 1.5rem;
   }
 
   .cert h2 {
