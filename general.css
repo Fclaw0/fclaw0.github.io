@@ -73,6 +73,33 @@ BORDER-RADIUS
   box-sizing: border-box;
 }
 
+/* Force light mode - prevent browser dark mode */
+:root {
+  color-scheme: light only;
+}
+
+html {
+  color-scheme: light only;
+}
+
+/* Prevent any system dark mode from affecting elements */
+* {
+  color-scheme: light only;
+}
+
+/* Override any potential system dark mode styles */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light only !important;
+  }
+
+  html,
+  body,
+  * {
+    color-scheme: light only !important;
+  }
+}
+
 *:focus {
   outline: none;
   box-shadow: 0 0 0 0.3rem rgba(29, 42, 93, 0.4),
