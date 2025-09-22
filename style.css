@@ -55,7 +55,7 @@
   font-weight: 500;
   font-size: 2rem;
   padding: 1rem 1.2rem;
-  border-radius: 4px;
+  border-radius: 6px; /* Standardized to match button system */
   transition: all 0.3s;
   white-space: nowrap;
   overflow: visible;
@@ -197,7 +197,7 @@ body {
 .profile-photo {
   height: 50rem;
   width: 50rem;
-  border-radius: 500px;
+  border-radius: 50%; /* Standardized for true circles */
 }
 
 .IT-skills {
@@ -219,7 +219,7 @@ body {
   align-items: center;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  border-radius: 3px;
+  border-radius: 8px; /* Standardized for medium containers */
   transition: transform 0.5s ease;
 }
 
@@ -258,7 +258,7 @@ body {
   max-width: 18rem;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  border-radius: 1000px;
+  border-radius: 50%; /* Standardized for true circles */
 }
 
 .certifications img {
@@ -339,7 +339,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 3px;
+  border-radius: 8px; /* Standardized for medium containers */
   width: 100%;
   background-color: var(--primary-blue-light);
   padding: 1.6rem;
@@ -356,7 +356,7 @@ body {
 .fitfresh-preview {
   height: 50rem;
   width: 100%;
-  border-radius: 3px;
+  border-radius: 8px; /* Standardized for medium containers */
   margin-bottom: 2rem;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -372,7 +372,7 @@ body {
 }
 
 .channel-container {
-  border-radius: 3px;
+  border-radius: 8px; /* Standardized for medium containers */
   background-color: var(--primary-blue-light);
   color: var(--text-primary);
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
@@ -390,7 +390,7 @@ body {
 
 .channel-box {
   width: 100%;
-  border-radius: 3px 3px 0 0;
+  border-radius: 8px 8px 0 0; /* Standardized for medium containers */
   display: flex;
   text-align: center;
   align-items: center;
@@ -433,7 +433,7 @@ body {
 .youtube-channel-image {
   height: 10rem;
   width: 10rem;
-  border-radius: 500px;
+  border-radius: 50%; /* Standardized for true circles */
 }
 
 /* FOOTER */

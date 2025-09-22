@@ -151,6 +151,28 @@
     max-width: 45rem;
     margin: 0 auto;
   }
+
+  /* FitFresh project box optimization for smaller screens */
+  .project-box {
+    max-width: 65rem; /* Reduced from full width */
+    margin: 0 auto; /* Center the box */
+    padding: 1.2rem; /* Reduced padding */
+  }
+
+  .fitfresh-preview {
+    height: 35rem; /* Reduced from 50rem */
+    max-width: 100%; /* Ensure image fits within box */
+  }
+
+  .heading-tertiary {
+    font-size: 1.8rem; /* Slightly reduced for better fit */
+    margin-bottom: 1.5rem; /* Reduced spacing */
+  }
+
+  .btn {
+    padding: 0.8rem 1.5rem; /* Reduced button padding */
+    font-size: 1.4rem; /* Slightly smaller button text */
+  }
 }
 
 /* Small tablets (768px and below) */
@@ -453,6 +475,35 @@
   .youtube-channel-image {
     height: 8rem;
     width: 8rem;
+  }
+
+  /* Mobile-specific YouTube channel optimizations */
+  .grid--3-cols {
+    padding: 0 2rem; /* Added horizontal spacing for mobile */
+  }
+
+  .grid--3-cols > * {
+    max-width: 26rem; /* Reduced for more space on mobile */
+  }
+
+  .channel-box {
+    font-size: 1.2rem; /* Reduced for mobile */
+    padding: 0.6rem; /* Reduced for mobile */
+  }
+
+  .channel-container {
+    margin-bottom: 1.5rem; /* Reduced spacing */
+  }
+
+  /* Improve touch interaction on mobile */
+  .channel-link {
+    padding: 0.5rem; /* Add padding around clickable area */
+    border-radius: 6px; /* Standardized to match global focus system */
+  }
+
+  .channel-link:active {
+    transform: scale(0.98); /* Subtle press feedback */
+    transition: transform 0.1s ease;
   }
 
   .description-item {

@@ -42,9 +42,14 @@ box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 
 BORDER-RADIUS
 
-3px
-500px
-1000px
+Small Elements (buttons, links, focus states): 6px
+Medium Containers (boxes, cards, project containers): 8px  
+Circular Elements (profile photos, logos, channel images): 50%
+
+DESIGN SYSTEM:
+- 6px: Interactive elements (buttons, navbar links, focus states)
+- 8px: Container elements (project boxes, channel containers, IT skills boxes)
+- 50%: Circular elements (profile photos, education logos, YouTube channel images)
 
 */
 
@@ -257,6 +262,7 @@ html {
   font-size: 2.4rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
+  text-align: center; /* Center text when it wraps */
 }
 
 .heading-project {
@@ -287,7 +293,7 @@ html {
   font-size: 2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
-  border-radius: 6px;
+  border-radius: 6px; /* Consistent with global focus system */
   border: none;
   cursor: pointer;
   font-family: inherit;
@@ -337,7 +343,7 @@ html {
   color: var(--text-light);
   cursor: pointer;
   padding: 1.6rem;
-  border-radius: 10px;
+  border-radius: 6px; /* Standardized to match primary buttons */
   font-size: 1.8rem;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
