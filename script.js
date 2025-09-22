@@ -71,3 +71,32 @@ function topFunction() {
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
+
+// FORCE PDF TO OPEN IN NEW TAB (PREVENT DOWNLOAD)
+
+document.addEventListener("DOMContentLoaded", function () {
+  const resumeLink = document.querySelector('a[href*="Resume.pdf"]');
+
+  if (resumeLink) {
+    resumeLink.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      // Create a blob URL to force browser viewing instead of downloading
+      fetch(this.href)
+        .then((response) => response.blob())
+        .then((blob) => {
+          const blobUrl = URL.createObjectURL(blob);
+          const newWindow = window.open(blobUrl, "_blank", "noopener");
+
+          // Clean up the blob URL after opening
+          setTimeout(() => {
+            URL.revokeObjectURL(blobUrl);
+          }, 1000);
+        })
+        .catch(() => {
+          // Fallback: try direct opening if fetch fails
+          window.open(this.href, "_blank", "noopener");
+        });
+    });
+  }
+});
