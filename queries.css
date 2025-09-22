@@ -75,6 +75,10 @@
     text-align: center;
     gap: 1.5rem;
   }
+
+  .about-description {
+    padding: 0 2rem; /* Added horizontal spacing for better scrolling */
+  }
 }
 
 /* Tablets (984px and below) */
@@ -225,6 +229,7 @@
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 3rem;
+    padding: 0 2rem; /* Added horizontal spacing for better scrolling */
   }
 
   .profile-photo {
@@ -402,6 +407,7 @@
     font-size: 1.6rem;
     text-align: left;
     margin-bottom: 2.5rem;
+    padding: 0 2rem; /* Added horizontal spacing for better scrolling */
   }
 
   .flex-IT-skills {
@@ -588,6 +594,7 @@
 
   .about-description {
     font-size: 1.4rem;
+    padding: 0 2rem; /* Added horizontal spacing for better scrolling */
   }
 
   .IT-skill {
