@@ -26,8 +26,9 @@ BUTTONS:
 box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 
 HEADER:
-box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
-}
+box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),
+            0px 4px 5px 0px rgba(0,0,0,0.14),
+            0px 1px 10px 0px rgba(0,0,0,0.12);
 
 IT SKILLS/EDUCATION LOGOS:
 box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
@@ -38,8 +39,9 @@ PROJECT/CHANNEL BOXES:
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 
 FITFRESH PREVIEW: 
-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-
+box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    
 BORDER-RADIUS
 
 Small Elements (buttons, links, focus states): 6px
