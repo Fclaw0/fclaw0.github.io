@@ -168,7 +168,6 @@
     max-width: 100%; /* Ensure video fits within box */
     object-fit: cover; /* Fill container while maintaining aspect ratio */
     object-position: center; /* Center the video content */
-    display: block; /* Remove any inline spacing */
   }
 
   .heading-tertiary {
@@ -287,7 +286,6 @@
     height: 40rem;
     object-fit: cover; /* Fill container while maintaining aspect ratio */
     object-position: center; /* Center the video content */
-    display: block; /* Remove any inline spacing */
   }
 }
 
@@ -475,7 +473,6 @@
     height: 30rem;
     object-fit: cover; /* Fill container while maintaining aspect ratio */
     object-position: center; /* Center the video content */
-    display: block; /* Remove any inline spacing */
   }
 
   .channel-container {
@@ -649,7 +646,6 @@
     height: 25rem;
     object-fit: cover; /* Fill container while maintaining aspect ratio */
     object-position: center; /* Center the video content */
-    display: block; /* Remove any inline spacing */
   }
 
   .channel-name {
