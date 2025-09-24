@@ -165,7 +165,10 @@
 
   .fitfresh-preview {
     height: 35rem; /* Reduced from 50rem */
-    max-width: 100%; /* Ensure image fits within box */
+    max-width: 100%; /* Ensure video fits within box */
+    object-fit: cover; /* Fill container while maintaining aspect ratio */
+    object-position: center; /* Center the video content */
+    display: block; /* Remove any inline spacing */
   }
 
   .heading-tertiary {
@@ -282,6 +285,9 @@
 
   .fitfresh-preview {
     height: 40rem;
+    object-fit: cover; /* Fill container while maintaining aspect ratio */
+    object-position: center; /* Center the video content */
+    display: block; /* Remove any inline spacing */
   }
 }
 
@@ -467,6 +473,9 @@
 
   .fitfresh-preview {
     height: 30rem;
+    object-fit: cover; /* Fill container while maintaining aspect ratio */
+    object-position: center; /* Center the video content */
+    display: block; /* Remove any inline spacing */
   }
 
   .channel-container {
@@ -481,6 +490,8 @@
   .youtube-channel-image {
     height: 8rem;
     width: 8rem;
+    object-fit: cover; /* Fill container while maintaining aspect ratio */
+    object-position: center; /* Center the video content */
   }
 
   /* Mobile-specific YouTube channel optimizations */
@@ -636,6 +647,9 @@
 
   .fitfresh-preview {
     height: 25rem;
+    object-fit: cover; /* Fill container while maintaining aspect ratio */
+    object-position: center; /* Center the video content */
+    display: block; /* Remove any inline spacing */
   }
 
   .channel-name {
@@ -645,6 +659,8 @@
   .youtube-channel-image {
     height: 7rem;
     width: 7rem;
+    object-fit: cover; /* Fill container while maintaining aspect ratio */
+    object-position: center; /* Center the video content */
   }
 
   .description-item {

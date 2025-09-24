@@ -360,6 +360,9 @@ body {
   margin-bottom: 2rem;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  object-fit: cover; /* Fill container while maintaining aspect ratio */
+  object-position: center; /* Center the video content */
+  display: block; /* Remove any inline spacing */
 }
 
 .channel-link {
@@ -435,6 +438,8 @@ body {
   height: 10rem;
   width: 10rem;
   border-radius: 50%; /* Standardized for true circles */
+  object-fit: cover; /* Fill container while maintaining aspect ratio */
+  object-position: center; /* Center the video content */
 }
 
 /* FOOTER */
