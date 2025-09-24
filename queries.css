@@ -15,6 +15,20 @@
   }
 }
 
+/* Medium-large displays (1400px and below) - Show still image instead of video for performance */
+@media (max-width: 87.5em) {
+  .bg-image {
+    display: none; /* Hide the video element completely */
+  }
+
+  .section-hero {
+    background-image: url("img/banner.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
 /* Large tablets and small desktops (1200px and below) */
 @media (max-width: 75em) {
   .container {

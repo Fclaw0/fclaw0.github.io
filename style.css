@@ -104,12 +104,14 @@ body {
 .bg-image {
   width: 100%;
   height: 100%;
-  object-fit: fill; /* Changed from cover to fill to show full video */
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+  object-position: center; /* Center the content */
   margin: 0;
   z-index: -1;
   position: absolute;
   top: 0;
   left: 0;
+  display: block; /* Remove any inline spacing */
 }
 
 .name {
