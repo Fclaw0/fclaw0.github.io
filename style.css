@@ -40,13 +40,6 @@
   gap: 1.4rem;
 }
 
-.navbar-link {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 4.8rem;
-}
-
 .main-navbar-link:link,
 .main-navbar-link:visited {
   display: inline-block;
@@ -55,7 +48,7 @@
   font-weight: 500;
   font-size: 2rem;
   padding: 1rem 1.2rem;
-  border-radius: 6px; /* Standardized to match button system */
+  border-radius: 6px;
   transition: all 0.3s;
   white-space: nowrap;
   overflow: visible;
@@ -104,14 +97,14 @@ body {
 .bg-image {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Cover the container while maintaining aspect ratio */
-  object-position: center; /* Center the content */
+  object-fit: cover;
+  object-position: center;
   margin: 0;
   z-index: -1;
   position: absolute;
   top: 0;
   left: 0;
-  display: block; /* Remove any inline spacing */
+  display: block;
 }
 
 .name {
@@ -199,7 +192,7 @@ body {
 .profile-photo {
   height: 50rem;
   width: 50rem;
-  border-radius: 50%; /* Standardized for true circles */
+  border-radius: 50%;
 }
 
 .IT-skills {
@@ -221,7 +214,7 @@ body {
   align-items: center;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  border-radius: 8px; /* Standardized for medium containers */
+  border-radius: 8px;
   transition: transform 0.5s ease;
 }
 
@@ -260,7 +253,7 @@ body {
   max-width: 18rem;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  border-radius: 50%; /* Standardized for true circles */
+  border-radius: 50%;
 }
 
 .certifications img {
@@ -341,7 +334,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 8px; /* Standardized for medium containers */
+  border-radius: 8px;
   width: 100%;
   background-color: var(--primary-blue-light);
   padding: 1.6rem;
@@ -358,13 +351,13 @@ body {
 .fitfresh-preview {
   height: 50rem;
   width: 100%;
-  border-radius: 8px; /* Standardized for medium containers */
+  border-radius: 8px;
   margin-bottom: 2rem;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  object-fit: cover; /* Fill container while maintaining aspect ratio */
-  object-position: center; /* Center the video content */
-  display: block; /* Remove any inline spacing */
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 .channel-link {
@@ -378,7 +371,7 @@ body {
 }
 
 .channel-container {
-  border-radius: 8px; /* Standardized for medium containers */
+  border-radius: 8px;
   background-color: var(--primary-blue-light);
   color: var(--text-primary);
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
@@ -396,7 +389,7 @@ body {
 
 .channel-box {
   width: 100%;
-  border-radius: 8px 8px 0 0; /* Standardized for medium containers */
+  border-radius: 8px 8px 0 0;
   display: flex;
   text-align: center;
   align-items: center;
@@ -439,46 +432,46 @@ body {
 .youtube-channel-image {
   height: 10rem;
   width: 10rem;
-  border-radius: 50%; /* Standardized for true circles */
-  object-fit: cover; /* Fill container while maintaining aspect ratio */
-  object-position: center; /* Center the video content */
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* FOOTER */
 
 .footer {
-  padding: 2.8rem 0; /* Further reduced for tighter integration */
+  padding: 2.8rem 0;
   background-color: var(--bg-dark);
 }
 
 .heading-footer {
   display: flex;
   justify-content: center;
-  font-size: 3.6rem; /* Increased from 3rem */
+  font-size: 3.6rem;
   line-height: 1.05;
   font-weight: 700;
   color: var(--text-light);
   letter-spacing: -0.5px;
-  margin-bottom: 3.2rem; /* Increased from 2.4rem for better internal spacing */
+  margin-bottom: 3.2rem;
 }
 
 .email {
   display: flex;
-  gap: 1.2rem; /* Increased from 1rem */
+  gap: 1.2rem;
   justify-content: center;
   align-items: center;
-  font-size: 2.2rem; /* Increased from 2rem */
+  font-size: 2.2rem;
   line-height: 1.05;
   font-weight: 400;
   color: var(--text-light);
   letter-spacing: -0.5px;
-  margin-bottom: 3.2rem; /* Increased from 2.4rem for better internal spacing */
+  margin-bottom: 3.2rem;
 }
 
 .footer-link:link,
 .footer-link:visited {
   text-decoration: none;
-  font-size: 2.2rem; /* Increased from 1.6rem to match email font-size */
+  font-size: 2.2rem;
   color: var(--text-light);
   transition: all 0.3s;
 }
@@ -489,8 +482,8 @@ body {
 }
 
 .footer-icon {
-  height: 5.5rem; /* Increased from 4.5rem */
-  width: 5.5rem; /* Increased from 4.5rem */
+  height: 5.5rem;
+  width: 5.5rem;
   fill: var(--text-light);
   transition: all 0.3s;
 }
@@ -498,7 +491,7 @@ body {
 .footer-icons {
   display: flex;
   justify-content: center;
-  gap: 4rem; /* Increased from 3.2rem */
+  gap: 4rem;
 }
 
 .footer-icon:link,
@@ -520,8 +513,8 @@ body {
   justify-content: center;
   color: var(--text-light);
   background-color: var(--bg-dark);
-  padding: 1.2rem; /* Increased from 0.4rem */
-  font-size: 1.6rem; /* Increased from 1.4rem */
+  padding: 1.2rem;
+  font-size: 1.6rem;
   line-height: 1.6;
 }
 

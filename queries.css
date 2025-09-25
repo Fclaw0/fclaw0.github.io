@@ -5,20 +5,20 @@
 /* Extra large displays (1200px and above) */
 @media (min-width: 75.0625em) {
   .navbar-links-container {
-    gap: 2rem; /* Increased from 1.4rem */
+    gap: 2rem;
   }
 
   .main-navbar-link:link,
   .main-navbar-link:visited {
-    font-size: 2.2rem; /* Increased from 2rem */
-    padding: 1.1rem 1.4rem; /* Increased from 1rem 1.2rem */
+    font-size: 2.2rem;
+    padding: 1.1rem 1.4rem;
   }
 }
 
 /* Medium-large displays (1400px and below) - Show still image instead of video for performance */
 @media (max-width: 87.5em) {
   .bg-image {
-    display: none; /* Hide the video element completely */
+    display: none;
   }
 
   .section-hero {
@@ -91,7 +91,7 @@
   }
 
   .about-description {
-    padding: 0 2rem; /* Added horizontal spacing for better scrolling */
+    padding: 0 2rem;
   }
 }
 
@@ -172,26 +172,26 @@
 
   /* FitFresh project box optimization for smaller screens */
   .project-box {
-    max-width: 65rem; /* Reduced from full width */
-    margin: 0 auto; /* Center the box */
-    padding: 1.2rem; /* Reduced padding */
+    max-width: 65rem;
+    margin: 0 auto;
+    padding: 1.2rem;
   }
 
   .fitfresh-preview {
-    height: 35rem; /* Reduced from 50rem */
-    max-width: 100%; /* Ensure video fits within box */
-    object-fit: cover; /* Fill container while maintaining aspect ratio */
-    object-position: center; /* Center the video content */
+    height: 35rem;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 
   .heading-tertiary {
-    font-size: 1.8rem; /* Slightly reduced for better fit */
-    margin-bottom: 1.5rem; /* Reduced spacing */
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
   }
 
   .btn {
-    padding: 0.8rem 1.5rem; /* Reduced button padding */
-    font-size: 1.4rem; /* Slightly smaller button text */
+    padding: 0.8rem 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -232,12 +232,12 @@
   }
 
   .name-text {
-    font-size: 3.2rem; /* Increased from 2.8rem */
+    font-size: 3.2rem;
     text-align: center;
   }
 
   .typing-section {
-    font-size: 1.8rem; /* Increased from 1.6rem */
+    font-size: 1.8rem;
     text-align: center;
   }
 
@@ -245,7 +245,7 @@
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 3rem;
-    padding: 0 2rem; /* Added horizontal spacing for better scrolling */
+    padding: 0 2rem;
   }
 
   .profile-photo {
@@ -298,8 +298,8 @@
 
   .fitfresh-preview {
     height: 40rem;
-    object-fit: cover; /* Fill container while maintaining aspect ratio */
-    object-position: center; /* Center the video content */
+    object-fit: cover;
+    object-position: center;
   }
 }
 
@@ -394,13 +394,13 @@
   }
 
   .name-text {
-    font-size: 2.8rem; /* Increased from 2.4rem */
+    font-size: 2.8rem;
     text-align: center;
     line-height: 1.2;
   }
 
   .typing-section {
-    font-size: 1.6rem; /* Increased from 1.4rem */
+    font-size: 1.6rem;
     text-align: center;
     margin-bottom: 2rem;
   }
@@ -425,7 +425,7 @@
     font-size: 1.6rem;
     text-align: left;
     margin-bottom: 2.5rem;
-    padding: 0 2rem; /* Added horizontal spacing for better scrolling */
+    padding: 0 2rem;
   }
 
   .flex-IT-skills {
@@ -479,14 +479,18 @@
     padding: 3rem 0 6rem 0;
   }
 
+  .section-about {
+    padding: 3rem 0 6rem 0;
+  }
+
   .projects-inner-container {
     gap: 2rem;
   }
 
   .fitfresh-preview {
     height: 30rem;
-    object-fit: cover; /* Fill container while maintaining aspect ratio */
-    object-position: center; /* Center the video content */
+    object-fit: cover;
+    object-position: center;
   }
 
   .channel-container {
@@ -501,36 +505,36 @@
   .youtube-channel-image {
     height: 8rem;
     width: 8rem;
-    object-fit: cover; /* Fill container while maintaining aspect ratio */
-    object-position: center; /* Center the video content */
+    object-fit: cover;
+    object-position: center;
   }
 
   /* Mobile-specific YouTube channel optimizations */
   .grid--3-cols {
-    padding: 0 2rem; /* Added horizontal spacing for mobile */
+    padding: 0 2rem;
   }
 
   .grid--3-cols > * {
-    max-width: 26rem; /* Reduced for more space on mobile */
+    max-width: 26rem;
   }
 
   .channel-box {
-    font-size: 1.2rem; /* Reduced for mobile */
-    padding: 0.6rem; /* Reduced for mobile */
+    font-size: 1.2rem;
+    padding: 0.6rem;
   }
 
   .channel-container {
-    margin-bottom: 1.5rem; /* Reduced spacing */
+    margin-bottom: 1.5rem;
   }
 
   /* Improve touch interaction on mobile */
   .channel-link {
-    padding: 0.5rem; /* Add padding around clickable area */
-    border-radius: 6px; /* Standardized to match global focus system */
+    padding: 0.5rem;
+    border-radius: 6px;
   }
 
   .channel-link:active {
-    transform: scale(0.98); /* Subtle press feedback */
+    transform: scale(0.98);
     transition: transform 0.1s ease;
   }
 
@@ -540,29 +544,29 @@
   }
 
   .footer {
-    padding: 2rem 0; /* Further reduced for tighter integration */
+    padding: 1.75rem 0;
   }
 
   .heading-footer {
-    font-size: 2.8rem; /* Increased from 2.4rem */
-    margin-bottom: 2.6rem; /* Increased for better internal spacing */
+    font-size: 2.8rem;
+    margin-bottom: 2.6rem;
   }
 
   .email {
-    font-size: 1.8rem; /* Increased from 1.6rem */
+    font-size: 1.8rem;
     flex-direction: column;
-    gap: 0.8rem; /* Increased from 0.5rem */
+    gap: 0.8rem;
     text-align: center;
-    margin-bottom: 2.6rem; /* Increased for better internal spacing */
+    margin-bottom: 2.6rem;
   }
 
   .footer-icons {
-    gap: 2.4rem; /* Increased from 2rem */
+    gap: 2.4rem;
   }
 
   .footer-icon {
-    height: 4.2rem; /* Increased from 3.5rem */
-    width: 4.2rem; /* Increased from 3.5rem */
+    height: 4.2rem;
+    width: 4.2rem;
   }
 
   #myBtn {
@@ -599,11 +603,11 @@
   }
 
   .name-text {
-    font-size: 2.4rem; /* Increased from 2rem */
+    font-size: 2.4rem;
   }
 
   .typing-section {
-    font-size: 1.4rem; /* Increased from 1.2rem */
+    font-size: 1.4rem;
   }
 
   .heading-primary {
@@ -616,7 +620,7 @@
 
   .about-description {
     font-size: 1.4rem;
-    padding: 0 2rem; /* Added horizontal spacing for better scrolling */
+    padding: 0 2rem;
   }
 
   .IT-skill {
@@ -658,8 +662,8 @@
 
   .fitfresh-preview {
     height: 25rem;
-    object-fit: cover; /* Fill container while maintaining aspect ratio */
-    object-position: center; /* Center the video content */
+    object-fit: cover;
+    object-position: center;
   }
 
   .channel-name {
@@ -669,8 +673,8 @@
   .youtube-channel-image {
     height: 7rem;
     width: 7rem;
-    object-fit: cover; /* Fill container while maintaining aspect ratio */
-    object-position: center; /* Center the video content */
+    object-fit: cover;
+    object-position: center;
   }
 
   .description-item {
@@ -678,11 +682,11 @@
   }
 
   .heading-footer {
-    font-size: 2.4rem; /* Increased from 2rem */
+    font-size: 2.4rem;
   }
 
   .email {
-    font-size: 1.6rem; /* Increased from 1.4rem */
+    font-size: 1.6rem;
   }
 }
 
@@ -766,6 +770,6 @@
 /* Small screen heights (360px and below) - Move hero button up to prevent cutoff */
 @media (max-height: 22.5em) {
   .hero-btn {
-    margin-top: -2rem; /* Move button up to prevent cutoff */
+    margin-top: -2rem;
   }
 }
