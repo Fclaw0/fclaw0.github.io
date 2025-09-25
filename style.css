@@ -179,6 +179,14 @@ body {
   margin-bottom: 4rem;
 }
 
+.about-description p {
+  margin-bottom: 1.5rem;
+}
+
+.about-description p:last-child {
+  margin-bottom: 0;
+}
+
 .verafin {
   color: var(--accent-red);
   text-decoration: none;
