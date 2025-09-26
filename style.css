@@ -53,6 +53,8 @@
   white-space: nowrap;
   overflow: visible;
   flex-shrink: 0;
+  line-height: 1.2;
+  vertical-align: middle;
 }
 
 .main-navbar-link:hover,

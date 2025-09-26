@@ -514,6 +514,7 @@
   .youtube-channel-image {
     height: 8rem;
     width: 8rem;
+    border-radius: 50%;
     object-fit: cover;
     object-position: center;
   }
@@ -545,6 +546,10 @@
   .channel-link:active {
     transform: scale(0.98);
     transition: transform 0.1s ease;
+  }
+
+  .channel-link:active .youtube-channel-image {
+    border-radius: 50%;
   }
 
   .description-item {
@@ -590,6 +595,58 @@
 @media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 768px) {
   .about-description {
     line-height: 1.3;
+  }
+}
+
+/* Mobile video border-radius fix */
+@media (max-width: 48em) {
+  .youtube-channel-image {
+    border-radius: 50% !important;
+  }
+
+  .channel-link:active .youtube-channel-image,
+  .channel-link:focus .youtube-channel-image {
+    border-radius: 50% !important;
+  }
+}
+
+/* iOS-specific navbar link alignment fix */
+@supports (-webkit-touch-callout: none) {
+  .main-navbar-link:link,
+  .main-navbar-link:visited {
+    line-height: 1.1;
+    vertical-align: middle;
+    padding-top: 1.1rem;
+    padding-bottom: 0.9rem;
+  }
+
+  /* iOS-specific fix for column navbar layout */
+  @media (max-width: 38.8125em) {
+    .navbar {
+      align-items: center;
+      justify-content: center;
+    }
+
+    .navbar-links-container {
+      align-items: center;
+    }
+
+    .main-navbar-link:link,
+    .main-navbar-link:visited {
+      line-height: 1;
+      padding-top: 0.6rem;
+      padding-bottom: 0.4rem;
+    }
+  }
+
+  /* iOS-specific fix for mobile navbar */
+  @media (max-width: 36em) {
+    .main-navbar-link:link,
+    .main-navbar-link:visited {
+      line-height: 1;
+      padding-top: 0.6rem;
+      padding-bottom: 0.4rem;
+    }
   }
 }
 
@@ -693,6 +750,7 @@
   .youtube-channel-image {
     height: 7rem;
     width: 7rem;
+    border-radius: 50%;
     object-fit: cover;
     object-position: center;
   }
