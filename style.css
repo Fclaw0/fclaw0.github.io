@@ -439,10 +439,17 @@ body {
   text-decoration: none;
 }
 
-.youtube-channel-image {
+.video-container {
   height: 10rem;
   width: 10rem;
   border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.youtube-channel-image {
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   object-position: center;
 }
