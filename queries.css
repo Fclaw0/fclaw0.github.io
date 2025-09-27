@@ -618,6 +618,29 @@
     padding-bottom: 0.9rem;
   }
 
+  /* iOS-specific video background fix */
+  .youtube-channel-image {
+    background-color: transparent !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+    mask-image: radial-gradient(white, black);
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .youtube-channel-image:focus,
+  .youtube-channel-image:active {
+    background-color: transparent !important;
+    outline: none;
+  }
+
+  .video-container {
+    background-color: transparent !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
   /* iOS-specific fix for column navbar layout */
   @media (max-width: 38.8125em) {
     .navbar {
