@@ -618,27 +618,28 @@
     padding-bottom: 0.9rem;
   }
 
-  /* iOS-specific video background fix */
-  .youtube-channel-image {
-    background-color: transparent !important;
+  /* iOS-specific banner background fix */
+  .section-hero {
+    background-attachment: scroll !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-mask-image: -webkit-radial-gradient(white, black);
-    mask-image: radial-gradient(white, black);
-    outline: none;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    will-change: auto;
   }
 
-  .youtube-channel-image:focus,
-  .youtube-channel-image:active {
-    background-color: transparent !important;
-    outline: none;
-  }
-
-  .video-container {
-    background-color: transparent !important;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+  /* Prevent iOS Safari from adjusting background during scroll */
+  @media (max-width: 87.5em) {
+    .section-hero {
+      background-attachment: scroll !important;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
   }
 
   /* iOS-specific fix for column navbar layout */

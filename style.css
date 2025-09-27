@@ -452,15 +452,6 @@ body {
   width: 100%;
   object-fit: cover;
   object-position: center;
-  background-color: transparent;
-  outline: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.youtube-channel-image:focus,
-.youtube-channel-image:active {
-  background-color: transparent;
-  outline: none;
 }
 
 /* FOOTER */
