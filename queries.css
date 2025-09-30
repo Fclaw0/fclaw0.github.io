@@ -594,17 +594,6 @@
     line-height: 1.3;
   }
 
-  /* Android-specific video container fix */
-  .video-container {
-    border-radius: 50% !important;
-    overflow: hidden !important;
-  }
-
-  .youtube-channel-image {
-    border-radius: 0 !important;
-  }
-}
-
 /* iOS-specific navbar link alignment fix */
 @supports (-webkit-touch-callout: none) {
   .main-navbar-link:link,
