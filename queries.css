@@ -15,17 +15,14 @@
   }
 }
 
-/* Medium-large displays (1400px and below) - Show still image instead of video for performance */
-@media (max-width: 87.5em) {
+/* Medium-large displays (1400px and above) - Show video for better experience */
+@media (min-width: 87.5em) {
   .bg-image {
-    display: none;
+    display: none; /* Hide image on large screens */
   }
 
-  .section-hero {
-    background-image: url("img/banner.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  .bg-video {
+    display: block; /* Show video on large screens */
   }
 }
 
