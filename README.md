@@ -1,4 +1,4 @@
-# portfolio-site
+# portfolio-site @ franklaw.me
 <br> My portfolio website highlighting details about me such as my skills, projects, and contact information.
 <br> Written in HTML, CSS, and JS.
 <br>
